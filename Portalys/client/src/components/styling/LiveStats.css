@@ -1,0 +1,92 @@
+/* LiveStats.css */
+.LiveStats {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  text-align: center;
+}
+
+.LiveStats a {
+  color: inherit; /* Inherit the color from the parent element */
+  text-decoration: none; /* Remove underline */
+}
+
+.LiveStats a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.LiveStats h2 {
+  margin: 0 0 10px 0;
+  font-size: 24px;
+}
+
+.LiveStats p {
+  font-size: 18px;
+}
+
+.LiveStats ul {
+  list-style: none;
+  padding: 0;
+}
+
+.LiveStats li.tracking-link {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.LiveStats .link-container {
+  background-color: #3498db;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-right: 10px;
+  flex: 1;
+  white-space: nowrap;
+  overflow: auto;
+  text-overflow: ellipsis;
+}
+
+.LiveStats .clicks-container {
+  display: flex;
+  align-items: center;
+}
+
+.LiveStats .clicks-text {
+  background-color: #27ae60; /* Green */
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.LiveStats .delete-button {
+  background-color: #e74c3c; /* Red */
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.LiveStats .delete-button button {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.LiveStats .delete-button button:hover {
+  background-color: #991607; /* Darker red on hover */
+}

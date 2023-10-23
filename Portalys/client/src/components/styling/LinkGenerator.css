@@ -1,0 +1,55 @@
+/* LinkGenerator.css */
+
+.LinkGenerator {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 5px 0;
+}
+
+.button-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 5px 0;
+}
+
+.button-container button:hover {
+  background-color: #0056b3;
+}
+
+.tracking-link {
+  margin: 10px 0;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #17d611;
+  color: #100f0f;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.tracking-link:hover {
+  background-color: #56d611;
+}

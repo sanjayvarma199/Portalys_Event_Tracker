@@ -1,0 +1,25 @@
+/* App.css */
+
+.App {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .App h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .component-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .component-container > div {
+    width: 100%;
+    max-width: 600px;
+  }
+  
